@@ -45,7 +45,6 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
-
 #service-areas .card {
   min-height: 82px;
   padding: 16px 18px;
@@ -56,31 +55,28 @@
   box-shadow: 0 3px 12px rgba(18, 59, 50, 0.04);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 #service-areas .card:hover {
   transform: translateY(-2px);
   box-shadow: 0 7px 16px rgba(18, 59, 50, 0.09);
 }
-
 #service-areas .card h3 {
-  font-size: 16px;
-  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
   font-weight: 600;
   margin: 0;
+  color: #123b32;
 }
-
 @media (max-width: 1000px) {
   #service-areas .cards {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
-
 @media (max-width: 760px) {
   #service-areas .cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-
 @media (max-width: 480px) {
   #service-areas .cards {
     grid-template-columns: 1fr;
